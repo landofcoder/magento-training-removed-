@@ -16,7 +16,6 @@ $currentTime = date('m/d/Y h:i:s a', time());
     <div class="report-container">
         <form method="post" action="show.php" >
             Kinh Do <input type="text" name="Kinh Do" required >
-
              Vi Do  <input type="text" name="Vi Do" required ><br><br>
 
              <input type="submit" name="weather" value="Weather" style="height: 20 px;">
