@@ -1,0 +1,36 @@
+body {
+    background: slategray;
+}
+
+.container {
+    text-align: center;
+}
+.hieuung {
+    width: 50%;
+    margin: auto;
+}
+
+.motkhoi h3 {
+    background: #2196f3;
+    padding: 10px 15px;
+}
+
+
+h3 {
+    text-align: center;
+    background: #e3e3ea;
+    padding: 15px;
+}
+
+.motkhoi {
+    width: 50%;
+    margin: auto;
+}
+a#loadMore {
+    margin-left: 875px;
+    padding: 10px 30px;
+    text-align: center;
+    background: white;
+    width: 20%;
+     
+}

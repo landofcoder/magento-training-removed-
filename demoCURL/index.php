@@ -1,7 +1,6 @@
 
 <?php
    class DemoCurl {
-
  public function getTitle($url) {
 
     $page = file_get_contents($url);
