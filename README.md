@@ -2,9 +2,9 @@
 
 Team: Landofcoder
 
-Source: https://drive.google.com/drive/u/1/folders/1jLuJp_lJmRqVsO17uXKHwQa4hJJ-HvNk
+Source: https://drive.google.com/drive/folders/1PkQECh40uzzERT-vg7O1gZPsxD9JkKB-?usp=sharing
 
-The poet: @andyhoanghuu
+The poet: @landofcoder
 
 
 **I. GIT**
@@ -144,22 +144,37 @@ Yêu cầu:
 
 **Try it!!!**
 
-Source: https://drive.google.com/drive/u/1/folders/1KZCtPHVzhJ5noLlWAZBy7QDjgfaOrtUf
+Source: https://drive.google.com/drive/folders/13-OKbOVdFtIyF538jZglkdQkqN3qwCOv?usp=sharing
 
 Yêu cầu:
 - Tham khảo các tài liệu từ link trên theo thứ tự từ BASIC
 - Hiểu được cách triển khai module, cách cài đặt, một số lệnh cơ bản
+
+Trigger event:
+
+    https://r-martins.github.io/m1docs/guides/v2.4/extension-dev-guide/events-and-observers.html 
+    https://meetanshi.com/blog/trigger-an-event-on-magento-2-save-store-configuration/
+    https://meetanshi.com/blog/create-new-observer-on-trigger-of-magento-2-event-catalog_product_save_before/
+    https://www.rakeshjesadiya.com/create-custom-event-magento-2/ 
+
+Plugin:
+
+    https://devdocs.magento.com/guides/v2.4/extension-dev-guide/plugins.html
+    https://belvg.com/blog/designing-complex-solutions-using-plugins-in-magento-2.html
+    
 Bài tập:
-1. Viết 1 module Lof_Weather với yêu cầu của bài tập PHP API.
-Note: Lưu lại lịch sử những lần tìm kiếm của người dùng.
 
-2. Viết 1 module Lof_BlogClone  với yêu cầu của bài tập PHP CURL & Regex.
-- Viết tool cho phép nhập vào link của bài viết gốc, submit và clone bài viết đó trên Magento
-- Hiển thị nội dung bài viết đó ở frontend với route: blog-clone/:blog_id
+Create a module name: LofDemo_RenameProducts to:
 
-3. Viết 1 module Lof_Faq với yêu cầu của bài tập JS
-- Lưu lại các câu hỏi và các câu trả lời
-- Thiết lập một số setting cần thiết
+    Rename all product in PLP (Product Listing Page), PDP(Product Detail Page) to specific name
+    Create a menu: Demo Magento::Configuration
+    The menu redirect to configuration page in Lof > Rename Product
+    Have 2 field in configuration page:
+        Enable: Yes/No
+        New Product Name: Text + Placeholder "The product name will be changed to"
+
+Repo: https://github.com/landofcoder/magento2-examples
+Reference source: https://www.mageplaza.com/magento-2-module-development/
 
 
 **Good luck!**
